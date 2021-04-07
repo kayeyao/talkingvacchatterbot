@@ -401,12 +401,12 @@ vaccinechatbot = ChatBot('VaccineBot', read_only = True,
     trainer='chatterbot.trainers.ListTrainer'
 )
 
-covid_training_data = covidfaqclean
-vaccine_training_data = vaccinefaqclean
+#covid_training_data = covidfaqclean
+#vaccine_training_data = vaccinefaqclean
 covidtrainer = ListTrainer(covidchatbot)
 vaccinetrainer = ListTrainer(vaccinechatbot)
-covidtrainer.train(covid_training_data)
-vaccinetrainer.train(vaccine_training_data)
+#covidtrainer.train(covid_training_data)
+#vaccinetrainer.train(vaccine_training_data)
 
 #covidchatbot.storage.drop()
 #vaccinechatbot.storage.drop()
