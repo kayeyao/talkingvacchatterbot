@@ -1,6 +1,6 @@
 # Files for Streamlit
 
-1. **qabot.py >** code for streamlit app
+1. **talkingvacchatterbot_app.py >** code for streamlit app
 2. **setup.sh >** no need to change anything here
 3. **Procfile >** change "sprint4project.py" with the name of your Streamlit python file
 4. **requirements.txt >** put here all the libraries that you used in your code together as well as the version you're using. You can look for the the list of libariries currently installed in your environment by entering "conda list" on your terminal window
