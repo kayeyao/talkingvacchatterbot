@@ -28,7 +28,7 @@ st.markdown("""<style>.css-1aumxhk {background-color: #efede8; background-image:
 
 
 ## Side Bar Information
-image = Image.open('TalkingVac logo 2.png')
+image = Image.open('Image\TalkingVac logo 2.png')
 st.sidebar.image(image, caption='', width=200)
 
 
