@@ -11,7 +11,7 @@ from PIL import Image
 from streamlit import caching
 from streamlit_folium import folium_static
 
-import talkingvacchatterbot_body as body
+import talkingvacchatterbot_appbody as body
 
 warnings.filterwarnings('ignore')
 
