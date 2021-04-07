@@ -27,6 +27,7 @@ import plotly
 import plotly.express as px
 
 nltk.download('stopwords')
+nltk.download('punkt')
 
 stats = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv')
 stats['date'] = pd.to_datetime(stats['date'])
