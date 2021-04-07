@@ -1,7 +1,5 @@
 import warnings
 
-import folium
-import geopandas as gpd
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
