@@ -1,7 +1,6 @@
 import warnings
 
-import folium
-import geopandas as gpd
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -9,7 +8,6 @@ import seaborn as sns
 import streamlit as st
 from PIL import Image
 from streamlit import caching
-from streamlit_folium import folium_static
 
 import talkingvacchatterbot_appbody as body
 

@@ -6,10 +6,8 @@ import pickle
 import seaborn as sns
 import streamlit as st
 from PIL import Image
-from streamlit_folium import folium_static
 from streamlit import caching
 import datetime as dt
-import altair as alt
 import chatterbot
 from chatterbot import ChatBot
 from chatterbot.conversation import Statement
