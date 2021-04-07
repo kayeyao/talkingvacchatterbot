@@ -26,9 +26,9 @@ from fuzzywuzzy import fuzz
 import plotly
 import plotly.express as px
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
+#nltk.download('stopwords')
+#nltk.download('punkt')
+#nltk.download('wordnet')
 
 stats = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv')
 stats['date'] = pd.to_datetime(stats['date'])
@@ -401,12 +401,12 @@ vaccinechatbot = ChatBot('VaccineBot', read_only = True,
     trainer='chatterbot.trainers.ListTrainer'
 )
 
-#covid_training_data = covidfaqclean
-#vaccine_training_data = vaccinefaqclean
+covid_training_data = covidfaqclean
+vaccine_training_data = vaccinefaqclean
 covidtrainer = ListTrainer(covidchatbot)
 vaccinetrainer = ListTrainer(vaccinechatbot)
-#covidtrainer.train(covid_training_data)
-#vaccinetrainer.train(vaccine_training_data)
+covidtrainer.train(covid_training_data)
+vaccinetrainer.train(vaccine_training_data)
 
 #covidchatbot.storage.drop()
 #vaccinechatbot.storage.drop()
