@@ -11,16 +11,14 @@ from streamlit import caching
 
 import talkingvacchatterbot_appbody as body
 
+st.beta_set_page_config(page_title='talkingvacchatterbot')
 warnings.filterwarnings('ignore')
-
 
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
             
 local_css("style.css") #for styling, contains css for the background and the button style
-
-st.beta_set_page_config(page_title='talkingvacchatterbot')
 
 st.markdown("""<style>.css-1aumxhk {background-color: #efede8; background-image: none; color: #efede8}</style>""", unsafe_allow_html=True) # changes background color of sidebar #
 
