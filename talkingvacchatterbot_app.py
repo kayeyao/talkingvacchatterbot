@@ -11,7 +11,7 @@ from streamlit import caching
 
 import talkingvacchatterbot_appbody as body
 
-st.beta_set_page_config(page_title='talkingvacchatterbot')
+st.set_page_config(page_title='talkingvacchatterbot')
 warnings.filterwarnings('ignore')
 
 def local_css(file_name):
