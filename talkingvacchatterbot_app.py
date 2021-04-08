@@ -20,7 +20,7 @@ def local_css(file_name):
             
 local_css("style.css") #for styling, contains css for the background and the button style
 
-
+st.beta_set_page_config(page_title='talkingvacchatterbot')
 
 st.markdown("""<style>.css-1aumxhk {background-color: #efede8; background-image: none; color: #efede8}</style>""", unsafe_allow_html=True) # changes background color of sidebar #
 
